@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية" />
+  <meta name="keywords"
+    content="مركز العامرية للعيون والليزر، amerya eye center ،العدسات اللاصقة، تثبيت القرنية، علاج القرنية المخروطية، علاج أمراض الشبكية، عيون الأطفال، جميع فحوصات وأشعات العيون ،تصحيح الإبصار بالليزر والليزك، جراحات العيون، عمليات المياه البيضاء، عمليات المياه الزرقاء، تجميل العيون، زراعة العدسات الأمريكية" />
+  <meta name="theme-color" content="#fff">
+  <meta name="google-site-verification" content="kLDTPMFcTvXit-bY_4r87NEhjF3YkSCeklf0CqGN2jE" />
+  <!-- Open Graph Meta Tags -->
+  <!-- <meta property="og:site_name" content="مركز العامرية للعيون والليزر" />
+  <meta property="og:title" content="مركز العامرية للعيون والليزر" />
+  <meta property="og:locale" content="ar" />
+  <meta property="og:description"
+    content="مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية" />
+  <meta property="og:url" content="https://ameryaeyecenter.com/">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ameryaeyecenter.com/img/web-img.png">
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:secure_url" content="https://ameryaeyecenter.com/img/web-img.png" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="525" /> -->
+
+  <!-- Twitter Card Meta Tags -->
+  <!-- <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ameryaeyecenter" />
+  <meta name="twitter:title" content="مركز العامرية للعيون والليزر" />
+  <meta name="twitter:description"
+    content="مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية" />
+  <meta name="twitter:image" content="https://ameryaeyecenter.com/img/web-img.png" /> -->
+
+  <link rel="shortcut icon" href="./img/favicon.ico" />
+  <!-- bootstrap.rtl -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/call-us.css" />
+  <link rel="stylesheet" href="./css/scroll-up.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <style>
+    .blog-card {
+      height: 100%;
+    }
+
+    .blog-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-image: linear-gradient(to right, var(--secondary), var(--primary));
+    }
+  </style>
+  <title>المقالات</title>
+
+</head>
+
+<body>
+
+  <!-- scroll up -->
+  <div class="scrollUp">
+    <img src="./img/icons/arrow-up.svg">
+  </div>
+
+  <!-- call us -->
+  <div class="call-us">
+
+    <a href="tel:+201096615751" target="_blank" class="call d-block mb-3"></a>
+
+    <a href="https://wa.me/message/OI5TOW23MLB7J1" target="_blank" class="whats d-block mb-3">
+      <img src="./img/icons/whats-logo.svg" alt="whatsapp icon">
+    </a>
+
+    <div class="share-icon position-relative">
+      <ul class="social-media hidden">
+        <li class="social-item d-flex justify-content-center mb-2">
+          <div class="facebook d-flex align-items-center" onclick="shareOnFacebook()">
+            <a target="_blank" style="color: #0d6efd;">Facebook</a>
+            <img src="./img/icons/facebook-logo.png" class="ms-2" width="22px" alt="facebook-logo">
+          </div>
+        </li>
+        <li class="social-item d-flex justify-content-center mb-2">
+          <div class="x d-flex align-items-center" onclick="shareOnTwitter()">
+            <a target="_blank" class="text-black">X (Twitter)</a>
+            <img src="./img/icons/x.png" class="ms-2" width="22px" alt="x-logo">
+          </div>
+        </li>
+        <li class="social-item d-flex justify-content-center mb-2">
+          <div class="whatsapp d-flex align-items-center" onclick="shareOnWhatsApp()">
+            <a target="_blank" class="text-success">WhatsApp</a>
+            <img src="./img/icons/whats-logo.svg" class="ms-2" width="22px" alt="whats-logo">
+          </div>
+        </li>
+        <li class="social-item d-flex justify-content-center mb-2">
+          <div class="copy-link d-flex align-items-center" onclick="copyLink()">
+            <span class="text-regular text-primary fs-7 mt-1">نسخ الرابط</span>
+            <img src="./img/icons/copy.svg" class="ms-2" width="18px" alt="whats-logo">
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!--start navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+
+      <a class="navbar-brand py-2 ms-1 cursor-pointer" href="index.html">
+        <img src="./img/logo.png" alt="amerya eye center logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item pt-2">
+            <a class="home nav-link cursor-pointer" aria-current="page" href="index.html">الرئيسية</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <a class="about nav-link max-content" aria-current="page" href="about.html">عن الدكتور</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <a class="services nav-link max-content" aria-current="page" href="index.html#services">الخدمات</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <a class="testimonials nav-link max-content" aria-current="page" href="index.html#testimonials">
+              أراء العملاء</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <a class="blog nav-link max-content" aria-current="page" onclick="scrollToUp()">المقالات</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <a class="questions nav-link max-content" aria-current="page" href="questions.html">الأسئلة الشائعة</a>
+          </li>
+
+          <li class="nav-item pt-2">
+            <span class="contact-us nav-link max-content cursor-pointer" aria-current="page" onclick="scrollToDown()">
+              التواصل
+            </span>
+          </li>
+
+          <a class="book-appointment text-white bg-gradient rounded-5 px-5 ms-xl-3 max-content cursor-pointer"
+            style="padding-top: 14px; padding-bottom: 9px;" aria-current="page" href="book-appointment.html">
+            حـجـــز موعـــد
+          </a>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+
+  <section class="section" style="margin-top: 60px;">
+    <div class="container">
+
+      <h1 class="fs-2 text-center mb-5">المقــالات</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+
+        <div class="col py-3">
+          <div class="blog-card position-relative overflow-hidden text-center bg-light rounded-5 p-5">
+            <h5 class="blog-title lh-lg">
+              هل تعاني من ضعف النظر ؟ الرؤية الضبابية أو ازدواج الرؤية ؟ دلوقتي أحدث عروض آشعة القرنية مجاناً لحالاتنا
+            </h5>
+            <a href="https://www.facebook.com/share/p/1BAp7YUJi7/" target="_blank"
+              class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mt-3 cursor-pointer"
+              style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
+              <span>المزيـــد</span>
+              <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+            </a>
+          </div>
+        </div>
+
+        <div class="col py-3">
+          <div class="blog-card position-relative overflow-hidden text-center bg-light rounded-5 p-5">
+            <h5 class="blog-title lh-lg">
+              معلومات عن تصحيح الابصار بالليزر مع الاستاذ الدكتور / عمرو سعيد استشاري جراحات القرنية المخروطية وتصحيح
+              الابصار
+            </h5>
+            <a href="https://www.facebook.com/share/v/1YMXpz5GFj/" target="_blank"
+              class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mt-3 cursor-pointer"
+              style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
+              <span>المزيـــد</span>
+              <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+            </a>
+          </div>
+        </div>
+
+        <div class="col py-3">
+          <div class="blog-card position-relative overflow-hidden text-center bg-light rounded-5 p-5">
+            <h5 class="blog-title lh-lg">
+              عروض الليزك من مركز العامرية للعيون، دلوقتي تقدر تودع النظارة وتستمتع برؤية أوضح مع أحدث تقنيات الليزر
+              وأعلى نسب نجاح </h5>
+            <a href="https://www.facebook.com/share/p/18wxbRx1eR/" target="_blank"
+              class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mt-3 cursor-pointer"
+              style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
+              <span>المزيـــد</span>
+              <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+            </a>
+          </div>
+        </div>
+
+        <div class="col py-3">
+          <div class="blog-card position-relative overflow-hidden text-center bg-light rounded-5 p-5">
+            <h5 class="blog-title lh-lg">
+              الأن ولفترة محدودة ، خصم 20% علي عمليات الليزك، بمناسبة أجازة نصف العام، والمفاجاة الكشف والفحوصات مجانا
+              لعمليات تصحيح الإبصار
+            </h5>
+            <a href="https://www.facebook.com/share/p/1C1Cvqn7jD/" target="_blank"
+              class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mt-3 cursor-pointer"
+              style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
+              <span>المزيـــد</span>
+              <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+            </a>
+          </div>
+        </div>
+
+      </div> <!-- end row -->
+    </div>
+  </section>
+
+  <!-- start join-us -->
+  <section class="join-us section bg-light text-center">
+    <div class="container">
+      <h2 class="head-center position-relative mb-5">انضم إلينا</h2>
+      <p class="fs-5 text-gray mb-4">أرسل رقم الواتس ليصلك آخر التحديثات والعروض الحصرية</p>
+
+      <form action="" class="d-flex mx-auto whats-form">
+        <button type="button" class="send-btn text-regular btn btn-secondary btn-lg rounded-4 me-2 px-5"
+          style="padding-top: .75rem;">إرسال</button>
+        <input type="text" class="whats-input form-control form-control-lg rounded-4" style="padding-top: .75rem;"
+          placeholder="رقم الواتس">
+      </form>
+    </div>
+  </section>
+  <!-- end join-us -->
+
+  <!-- start footer -->
+  <footer class="bg-gradient text-white text-regular">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-sm-12 col-xxl-4 pt-3 pb-4 px-4">
+          <div>
+            <img src="./img/logo-whaite.png" class="mb-4" style="width: 65%; max-width: 320px;"
+              alt="Safir Al Harameen logo">
+            <p class="lh-lg" style="max-width: 350px;">
+              الأستاذ الدكتور / عمرو سعيد ملتزم بتقديم أفضل الخدمات في مجال طب العيون من خلال استخدام أفضل التقنيات
+              والأجهزة.
+            </p>
+          </div>
+          <ul class="social-media-links d-flex align-items-center">
+
+            <a href="https://www.facebook.com/ameryaeyecenter/" target="_blank"
+              class="social rounded-circle d-flex align-items-center justify-content-center">
+              <img src="./img/icons/facebook-logo.png" alt="facebook icon">
+            </a>
+
+            <a href="https://youtube.com/@amrsaid9611" target="_blank"
+              class="social rounded-circle d-flex align-items-center justify-content-center">
+              <img src="./img/icons/youtube-logo.png" alt="youtube icon">
+            </a>
+
+            <a href="https://www.tiktok.com/@amrsaid7352" target="_blank"
+              class="social rounded-circle d-flex align-items-center justify-content-center">
+              <img src="./img/icons/tictok-logo.png" alt="tictok icon">
+            </a>
+
+          </ul>
+        </div>
+
+        <div class="col col-sm-12 col-xxl-8 pt-4">
+          <h2 class="head-center position-relative mb-5 mt-xxl-0" style="padding-right: 2rem !important">التواصـل
+          </h2>
+          <div class="row">
+            <div class="col py-3 px-5">
+              <div class="contact-section text-white">
+                <div class="amerya">
+                  <h5 class="addr-head position-relative mb-4">العامرية</h5>
+                  <ul>
+
+                    <li class="list-unstyled d-flex align-items-start">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/map-white.svg" width="25" alt="map icon">
+                      </div>
+                      <p class="lh-lg m-0 ms-3" style="min-width: 235px;">
+                        العامرية - أمام كوبرى العامرية
+                        <br>
+                        برج عمر المختار ( الدور الرابع )
+                      </p>
+                    </li>
+
+                    <li class="list-unerline d-flex align-items-center my-2">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/phone-white.svg" width="25" alt="phone icon">
+                      </div>
+                      <div class="fs-5 m-0 mt-2 ms-3 d-flex">
+                        <a href="tel:+201096615751" target="_blank" class="text-white">01096615751</a>
+                        <span class="mx-1">-</span>
+                        <a href="tel:+201032037199" target="_blank" class="text-white">01032037199</a>
+                      </div>
+                    </li>
+
+                    <li class="list-unstyled d-flex align-items-start">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/clock-white.svg" width="25" alt="map icon">
+                      </div>
+                      <p class="lh-lg m-0 ms-3">
+                        السبت من 12 إلى 3 ظهــراً
+                        <br>
+                        الأحــــد من 6 إلى 8 مساءاً
+                        <br>
+                        الثلاثاء من 3 إلى 5 مساءاً
+                      </p>
+                    </li>
+
+                  </ul>
+                  <a href="https://maps.app.goo.gl/ZNB4gLygtkePkLSz8" target="_blank"
+                    class="d-flex align-items-center justify-content-center bg-white rounded-5 py-2 mt-3">
+                    <div>
+                      <span class="text-bold text-primary">شاهد الموقع</span>
+                      <img src="./img/icons/google-map-icon.png" class="ms-3" alt="google-map-icon">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col py-3 px-5">
+              <div class="contact-section text-white">
+                <div class="amerya">
+                  <h5 class="addr-head position-relative mb-4">سموحة</h5>
+                  <ul>
+
+                    <li class="list-unstyled d-flex align-items-start">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/map-white.svg" width="25" alt="map icon">
+                      </div>
+                      <p class="lh-lg m-0 ms-3" style="min-width: 235px;">
+                        5 شارع د. سيد فهمى - فوق بنك
+                        <br>
+                        البركة - سموحة - سيدى جابر
+                      </p>
+                    </li>
+
+                    <li class="list-unerline d-flex align-items-center my-2">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/phone-white.svg" width="25" alt="phone icon">
+                      </div>
+                      <div class="fs-5 m-0 mt-2 ms-3 d-flex">
+                        <a href="tel:+201021031651" target="_blank" class="text-white">01021031651</a>
+                        <span class="mx-1">-</span>
+                        <a href="tel:+201226154154" target="_blank" class="text-white">01226154154</a>
+                      </div>
+                    </li>
+
+                    <li class="list-unstyled d-flex align-items-start">
+                      <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <img src="./img/icons/clock-white.svg" width="25" alt="map icon">
+                      </div>
+                      <p class="lh-lg m-0 ms-3" style="min-width: 250px;">
+                        السبت من 7 إلى 9 مساءاً
+                        <br>
+                        الإثنين والخميس من 1 إلى 3 ظهراً
+                        <br>
+                        الأربعاء من 3 إلى 6 مساءاً
+                      </p>
+                    </li>
+
+                  </ul>
+                  <a href="https://maps.app.goo.gl/P5KCixNh3rHQDLS66?g_st=awb" target="_blank"
+                    class="d-flex align-items-center justify-content-center bg-white rounded-5 py-2 mt-3">
+                    <div>
+                      <span class="text-bold text-primary">شاهد الموقع</span>
+                      <img src="./img/icons/google-map-icon.png" class="ms-3" alt="google-map-icon">
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="copyrights text-white text-regular py-4 border-1 border-top"
+      style="border-color: rgba(255,255,255,.3) !important;">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-12 row-cols-lg-2 text-center">
+          <div class="col right d-flex align-items-center justify-content-center">
+            <p class="my-0">جميع الحقوق محفوظة | مركز العامرية للعيون والليزر</p>
+            <p class="mb-0 ms-1" style="font-family: 'arial';">&copy; 2025</p>
+          </div>
+          <div class="col">
+            <p class="my-2 mb-0 left">تم التطوير بواسطة م.
+              <a href="https://wa.me/+201060344718" target="_blank" class="text-bold text-white">
+                حســن سعـــد
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- start loading page -->
+  <section class="loading-overlay">
+    <span class="loader"></span>
+  </section>
+  <!-- end loading page -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+  <script src="./js/loading-page.js" defer></script>
+  <script src="./js/active-nav-link.js" defer></script>
+  <script src="./js/open-close-nav.js" defer></script>
+  <script src="./js/scroll-up.js" defer></script>
+  <script src="./js/SharePage.js" defer></script>
+  <script src="./js/send-to-whatsapp.js" defer></script>
+
+  <script>
+    function scrollToUp() { scrollTo(0, 0) }
+    function scrollToDown() { scrollTo(0, document.body.offsetHeight) }
+  </script>
+
+</body>
+
+</html>

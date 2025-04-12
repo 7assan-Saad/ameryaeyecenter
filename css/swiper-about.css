@@ -1,0 +1,51 @@
+/* حاوية Swiper */
+.swiper-coverflow {
+  width: 100%;
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+
+/* الشرائح - تأثير Coverflow يدوي */
+.swiper-coverflow .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+/* تأثير التدوير والإمالة */
+.swiper-coverflow .swiper-slide:not(.swiper-slide-active) {
+  transform: rotateY(30deg) scale(0.8);
+  /* opacity: 0.9; */
+}
+
+/* الشريحة النشطة (المركزية) */
+.swiper-coverflow .swiper-slide-active {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+}
+
+@media (min-width: 992px) {
+  .swiper-slide img {
+    border-radius: 25px;
+  }
+}
+
+/* .swiper-slide img {
+  max-height: 100% !important;
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain;
+} */
+
+.swiper-button-prev, .swiper-button-next {
+  transform: translateY(-100%);
+}

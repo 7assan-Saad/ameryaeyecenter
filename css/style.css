@@ -658,6 +658,8 @@ input, select {
 
 /* end accordion reset */
 
+.form-check-input { margin-top: .12em }
+
 /* start footer */
 
 footer { padding-top: 80px }

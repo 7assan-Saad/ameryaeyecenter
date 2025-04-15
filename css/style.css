@@ -863,6 +863,9 @@ footer .head-center::before {
   .copyrights {
     font-size: .72rem
   }
+  footer .fs {
+    font-size: 1.15rem
+  }
 }
 
 .social-media-links .social {

@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /img/favicon.ico
 Disallow:
 
 Sitemap: https://ameryaeyecenter.com/sitemap.xml

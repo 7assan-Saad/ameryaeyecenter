@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="description" content="مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية" />
   <meta name="keywords"
     content="أفضل مركز ليزر عيون في العامرية، مركز العامرية للعيون والليزر، amerya eye center ،العدسات اللاصقة، تثبيت القرنية، علاج القرنية المخروطية، علاج أمراض الشبكية، عيون الأطفال، جميع فحوصات وأشعات العيون ،تصحيح الإبصار بالليزر والليزك، جراحات العيون، عمليات المياه البيضاء، عمليات المياه الزرقاء، تجميل العيون، زراعة العدسات الأمريكية" />
@@ -31,10 +31,15 @@
   <meta name="twitter:image" content="https://ameryaeyecenter.com/img/web-img.png" />
 
   <link rel="shortcut icon" href="https://ameryaeyecenter.com/img/favicon.ico" />
+  <link rel="manifest" href="./manifest.json">
+
   <!-- bootstrap.rtl -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+  <link rel="stylesheet" rel="preconnect"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" rel="preconnect" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="./fonts/Shamel-thin.ttf" as="font" type="font/truetype" crossorigin>
+  <link href="./fonts/Shamel-Bold.ttf" as="font" type="font/truetype" crossorigin>
   <link rel="stylesheet" href="./css/call-us.css" />
   <link rel="stylesheet" href="./css/scroll-up.css" />
   <link rel="stylesheet" href="./css/style.css" />
@@ -735,8 +740,8 @@
     <div class="container">
       <div class="row">
 
-        <div class="col col-sm-12 col-xxl-4 pt-3 pb-4 px-4 wow fadeInRight" data-wow-offset="200" data-wow-delay=".1s">
-          <div>
+        <div class="col col-sm-12 col-xxl-4 pt-3 pb-4 px-4">
+          <div class="wow fadeInRight" data-wow-offset="150" data-wow-delay=".1s">
             <img src="./img/logo-whaite.png" class="mb-4" style="width: 65%; max-width: 320px;"
               alt="Safir Al Harameen logo">
             <p class="lh-lg" style="max-width: 350px;">
@@ -744,8 +749,8 @@
               والأجهزة.
             </p>
           </div>
-          <ul class="social-media-links d-flex align-items-center wow fadeInUp" data-wow-offset="200"
-            data-wow-delay=".2s">
+          <ul class="social-media-links d-flex align-items-center wow fadeInUp" data-wow-offset="150"
+            data-wow-delay=".1s">
 
             <a href="https://www.facebook.com/ameryaeyecenter/" target="_blank"
               class="social rounded-circle d-flex align-items-center justify-content-center">
@@ -766,7 +771,7 @@
         </div>
 
         <div class="col col-sm-12 col-xxl-8 pt-4">
-          <h2 class="head-center position-relative mb-5 mt-xxl-0 wow fadeInRight" data-wow-offset="200"
+          <h2 class="head-center position-relative mb-5 mt-xxl-0 wow fadeInRight" data-wow-offset="150"
             data-wow-delay=".1s" style="padding-right: 2rem !important">
             التواصـل
           </h2>
@@ -774,11 +779,11 @@
             <div class="col py-3 px-5">
               <div class="contact-section text-white">
                 <div class="amerya">
-                  <h5 class="addr-head position-relative mb-4 wow fadeInLeft" data-wow-offset="200"
-                    data-wow-delay=".1s">العامرية</h5>
+                  <h5 class="addr-head position-relative mb-4 wow fadeInUp" data-wow-offset="150" data-wow-delay=".1s">
+                    العامرية</h5>
                   <ul>
 
-                    <li class="list-unstyled d-flex align-items-start wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unstyled d-flex align-items-start wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/map-white.svg" width="25" alt="map icon">
@@ -790,7 +795,7 @@
                       </p>
                     </li>
 
-                    <li class="list-unerline d-flex align-items-center my-2 wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unerline d-flex align-items-center my-2 wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/phone-white.svg" width="25" alt="phone icon">
@@ -802,7 +807,7 @@
                       </div>
                     </li>
 
-                    <li class="list-unstyled d-flex align-items-start wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unstyled d-flex align-items-start wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/clock-white.svg" width="25" alt="map icon">
@@ -819,7 +824,7 @@
                   </ul>
                   <a href="https://maps.app.goo.gl/ZNB4gLygtkePkLSz8" target="_blank"
                     class="d-flex align-items-center justify-content-center bg-white rounded-5 py-2 mt-3 wow fadeInUp"
-                    data-wow-offset="100" data-wow-delay=".1s">
+                    data-wow-offset="50" data-wow-delay=".1s">
                     <div>
                       <span class="text-bold text-primary">شاهد الموقع</span>
                       <img src="./img/icons/google-map-icon.svg" class="ms-3" width="28" alt="google-map-icon">
@@ -831,12 +836,12 @@
 
             <div class="col py-3 px-5">
               <div class="contact-section text-white">
-                <div class="amerya">
-                  <h5 class="addr-head position-relative mb-4 wow fadeInLeft" data-wow-offset="200"
-                    data-wow-delay=".1s">سموحة</h5>
+                <div class="smouha">
+                  <h5 class="addr-head position-relative mb-4 wow fadeInUp" data-wow-offset="150" data-wow-delay=".1s">
+                    سموحة</h5>
                   <ul>
 
-                    <li class="list-unstyled d-flex align-items-start wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unstyled d-flex align-items-start wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/map-white.svg" width="25" alt="map icon">
@@ -848,7 +853,7 @@
                       </p>
                     </li>
 
-                    <li class="list-unerline d-flex align-items-center my-2 wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unerline d-flex align-items-center my-2 wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/phone-white.svg" width="25" alt="phone icon">
@@ -860,7 +865,7 @@
                       </div>
                     </li>
 
-                    <li class="list-unstyled d-flex align-items-start wow fadeInLeft" data-wow-offset="200"
+                    <li class="list-unstyled d-flex align-items-start wow fadeInUp" data-wow-offset="150"
                       data-wow-delay=".1s">
                       <div class="contact-icon rounded-circle d-flex align-items-center justify-content-center">
                         <img src="./img/icons/clock-white.svg" width="25" alt="map icon">
@@ -877,7 +882,7 @@
                   </ul>
                   <a href="https://maps.app.goo.gl/P5KCixNh3rHQDLS66?g_st=awb" target="_blank"
                     class="d-flex align-items-center justify-content-center bg-white rounded-5 py-2 mt-3 wow fadeInUp"
-                    data-wow-offset="100" data-wow-delay=".1s">
+                    data-wow-offset="50" data-wow-delay=".1s">
                     <div>
                       <span class="text-bold text-primary">شاهد الموقع</span>
                       <img src="./img/icons/google-map-icon.svg" class="ms-3" width="28" alt="google-map-icon">
@@ -918,10 +923,26 @@
   </section>
   <!-- end loading page -->
 
+  <!-- install banner -->
+  <div id="install-container" class="install-banner">
+    <div>
+      <button id="install-button" class="install-button max-content">تثبيت الآن</button>
+      <button id="dismiss-button" class="dismiss-button text-regular">لاحقـاً</button>
+    </div>
+    <div class="d-flex align-items-center">
+      <div>
+        <h6 class="mt-2 max-content">مركز العامرية للعيون والليزر</h6>
+        <p class="mb-0 text-gray max-content" style="font-size: .78rem;">حمل التطبيق واستخدمه بدون إنترنت</p>
+      </div>
+      <img src="./img/icon-192x192.png" alt="Logo" width="80px" class="banner-logo ms-3 drop-shadow">
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./app.js"></script>
   <script src="./js/swiper-home.js" defer></script>
   <script src="./js/loading-page.js" defer></script>
   <script src="./js/active-nav-link.js" defer></script>

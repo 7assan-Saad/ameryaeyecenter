@@ -1,11 +1,11 @@
 {
   "name": "مركز العامرية للعيون والليزر",
-  "short_name": "العامرية للعيون",
+  "short_name": "مركز العامرية للعيون والليزر",
   "description": "مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#023a66",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "./img/icon-192x192.png",

@@ -1,1 +1,4 @@
-permalink: /:title  # for URL without -> .html /
+permalink: /:title
+baseurl: ""
+plugins:
+  - jekyll-optional-front-matter

@@ -1,5 +1,61 @@
 const blogs = [
   {
+    title: "الأن ولفترة محدودة ، خصم 20% علي عمليات الليزك، بمناسبة أجازة نصف العام، والمفاجأة الكشف والفحوصات مجاناً لعمليات تصحيح الإبصار",
+    link: "https://www.facebook.com/share/p/1C1Cvqn7jD/",
+  },
+  {
+    title: "لأول مرة في غرب الأسكندرية افتتاح ( قسم متخصص لعيون الأطفال ) تحت اشراف أفضل استشاريين عيون الأطفال في الأسكندرية",
+    link: "https://www.facebook.com/share/p/1662s7eEHC/",
+  },
+  {
+    title: "ما هي المياه الزرقاء أو الجلوكوما ؟",
+    link: "https://www.facebook.com/share/p/1H3aCNifGC/",
+  },
+  {
+    title: "ما هي عدسات ايفو فيزيان ( EVO ICL ) المزروعة داخل العين؟",
+    link: "https://www.facebook.com/share/p/169zyPNtjp/",
+  },
+  {
+    title: "أنواع عملية تثبيت القرنية",
+    link: "https://www.facebook.com/share/p/16WhFFxhDq/",
+  },
+  {
+    title: "تأثير الهاتف ( الموبايل ) على العين",
+    link: "https://www.facebook.com/share/p/1b5zcBNNqS/",
+  },
+  {
+    title: "ازاي تحافظ علي عينك من الجفاف ؟",
+    link: "https://www.facebook.com/share/v/1AH3Es8WuV/",
+  },
+  {
+    title: "حول العين",
+    link: "https://www.facebook.com/share/p/19yPzVXpUV/",
+  },
+  {
+    title: "ليه فيه ( ليزك غالي ) و ( ليزك رخيص ) ؟!",
+    link: "https://www.facebook.com/share/p/1B8wqgWMBY/",
+  },
+  {
+    title: "علاج الكيس الدهني",
+    link: "https://www.facebook.com/share/p/1Bhnv3XyhV/",
+  },
+  {
+    title: "متلازمة نظر الكمبيوتر (CVS)",
+    link: "https://www.facebook.com/share/v/1Yv3VjbvEn/",
+  },
+  {
+    title: "هل تعاني من ضعف النظر ؟ الرؤية الضبابية أو ازدواج الرؤية ؟ دلوقتي أحدث عروض آشعة القرنية مجاناً لحالاتنا",
+    link: "https://www.facebook.com/share/p/1BAp7YUJi7/",
+  },
+  {
+    title: "معلومات عن تصحيح الابصار بالليزر مع الاستاذ الدكتور / عمرو سعيد استشاري جراحات القرنية المخروطية وتصحيح الابصار",
+    link: "https://www.facebook.com/share/v/1YMXpz5GFj/",
+  },
+  {
+    title: "عروض الليزك من مركز العامرية للعيون، دلوقتي تقدر تودع النظارة تستمتع برؤية أوضح مع أحدث تقنيات الليزر وأعلى نسب نجاح",
+    link: "https://www.facebook.com/share/p/18wxbRx1eR/",
+  },
+  {
     title: "يعني إيه زرع عدسة ؟",
     link: "https://www.tiktok.com/@amrsaid7352/video/7494415011864005893?_r=1&_t=ZM-8vYq4AomcOz",
   },
@@ -20,18 +76,6 @@ const blogs = [
     link: "https://www.tiktok.com/@amrsaid7352/video/7493886695012699398?_r=1&_t=ZM-8vYq4AomcOz",
   },
   {
-    title: "هل تعاني من ضعف النظر ؟ الرؤية الضبابية أو ازدواج الرؤية ؟ دلوقتي أحدث عروض آشعة القرنية مجاناً لحالاتنا",
-    link: "https://www.facebook.com/share/p/1BAp7YUJi7/",
-  },
-  {
-    title: "معلومات عن تصحيح الابصار بالليزر مع الاستاذ الدكتور / عمرو سعيد استشاري جراحات القرنية المخروطية وتصحيح الابصار",
-    link: "https://www.facebook.com/share/v/1YMXpz5GFj/",
-  },
-  {
-    title: "عروض الليزك من مركز العامرية للعيون، دلوقتي تقدر تودع النظارة تستمتع برؤية أوضح مع أحدث تقنيات الليزر وأعلى نسب نجاح",
-    link: "https://www.facebook.com/share/p/18wxbRx1eR/",
-  },
-  {
     title: "أعراض بعد عملية تصحيح الابصار !",
     link: "https://www.tiktok.com/@amrsaid7352/video/7478352200008256773?_r=1&_t=ZM-8vYq4AomcOz",
   },
@@ -42,14 +86,6 @@ const blogs = [
   {
     title: "أفضل طرق تصحيح الابصار",
     link: "https://www.tiktok.com/@amrsaid7352/video/7438261979325811986?_r=1&_t=ZM-8vYq4AomcOz",
-  },
-  {
-    title: "الأن ولفترة محدودة ، خصم 20% علي عمليات الليزك، بمناسبة أجازة نصف العام، والمفاجأة الكشف والفحوصات مجاناً لعمليات تصحيح الإبصار",
-    link: "https://www.facebook.com/share/p/1C1Cvqn7jD/",
-  },
-  {
-    title: "لأول مرة في غرب الأسكندرية افتتاح قسم متخصص لعيون الأطفال تحت اشراف أفضل استشاريين عيون الاأطفال في الأسكندرية",
-    link: "https://www.facebook.com/share/p/1662s7eEHC/",
   },
   {
     title: "هل جفاف العين مرض بيستمر طول العمر ؟ وهل مالوش علاج غير القطرات بس ؟",

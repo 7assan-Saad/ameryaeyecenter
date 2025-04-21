@@ -20,22 +20,22 @@ workbox.precaching.precacheAndRoute([
   { url: '/css/call-us.css', revision: '1' },
 
   // ملفات JS
-  { url: '/js/active-nav-link.js', revision: '1' },
+  { url: '/js/active-nav-link.js', revision: 'v1' },
   { url: '/js/blog.js', revision: 'v2' },
-  { url: '/js/book-appointment.js', revision: '1' },
-  { url: '/js/loading-page.js', revision: '1' },
-  { url: '/js/open-close-nav.js', revision: '1' },
-  { url: '/js/scroll-up.js', revision: '1' },
-  { url: '/js/send-to-whatsapp.js', revision: '1' },
-  { url: '/js/SharePage.js', revision: '1' },
-  { url: '/js/swiper-about.js', revision: '1' },
-  { url: '/js/swiper-home.js', revision: '1' },
-  { url: '/js/wow.min.js', revision: '1' },
-  { url: '/app.js', revision: 'v2' },
+  { url: '/js/book-appointment.js', revision: 'v1' },
+  { url: '/js/loading-page.js', revision: 'v1' },
+  { url: '/js/open-close-nav.js', revision: 'v1' },
+  { url: '/js/scroll-up.js', revision: 'v1' },
+  { url: '/js/send-to-whatsapp.js', revision: 'v1' },
+  { url: '/js/SharePage.js', revision: 'v1' },
+  { url: '/js/swiper-about.js', revision: 'v1' },
+  { url: '/js/swiper-home.js', revision: 'v1' },
+  { url: '/js/wow.min.js', revision: 'v1' },
+  { url: '/app.js', revision: 'v1' },
 
   // الخطوط
-  { url: '/fonts/Shamel-thin.ttf', revision: '1' },
-  { url: '/fonts/Shamel-Bold.ttf', revision: '1' },
+  { url: '/fonts/Shamel-thin.ttf', revision: 'v1' },
+  { url: '/fonts/Shamel-Bold.ttf', revision: 'v1' },
 ]);
 
 // 2. تخزين المكتبات الخارجية (CDN)
@@ -62,10 +62,19 @@ workbox.routing.registerRoute(
   })
 );
 
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+});
+
 // 4. استراتيجية للصفحات (Network First)
 workbox.routing.registerRoute(
   ({ request }) => request.destination === 'document',
   new workbox.strategies.NetworkFirst({
     cacheName: 'pages-cache',
+    plugins: [
+      new workbox.expiration.ExpirationPlugin({
+        maxEntries: 50, // يحفظ أحدث 50 ملفًا فقط
+      }),
+    ]
   })
 );

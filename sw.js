@@ -52,13 +52,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   ({ request }) => request.destination === 'image',
   new workbox.strategies.CacheFirst({
-    cacheName: 'images-cache',
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 100,
-        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 يوم
-      }),
-    ],
+    cacheName: 'images-cache'
   })
 );
 
@@ -74,11 +68,6 @@ self.addEventListener('activate', (event) => {
 workbox.routing.registerRoute(
   ({ request }) => request.destination === 'document',
   new workbox.strategies.NetworkFirst({
-    cacheName: 'pages-cache',
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 50, // يحفظ أحدث 50 ملفًا فقط
-      }),
-    ]
+    cacheName: 'pages-cache'
   })
 );

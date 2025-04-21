@@ -1,5 +1,9 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
+// نظف الكاش القديم أولًا
+cleanupOutdatedCaches();
+
+// أضف الكاش الجديد
 // 1. تخزين الملفات الأساسية مسبقًا (Precache)
 workbox.precaching.precacheAndRoute([
   // الصفحات

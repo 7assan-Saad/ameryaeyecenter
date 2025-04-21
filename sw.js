@@ -21,7 +21,7 @@ workbox.precaching.precacheAndRoute([
 
   // ملفات JS
   { url: '/js/active-nav-link.js', revision: 'v1' },
-  { url: '/js/blog.js', revision: 'v2' },
+  { url: '/js/blog.js', revision: 'v3' },
   { url: '/js/book-appointment.js', revision: 'v1' },
   { url: '/js/loading-page.js', revision: 'v1' },
   { url: '/js/open-close-nav.js', revision: 'v1' },

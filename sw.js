@@ -1,7 +1,7 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js');
 
 // نظف الكاش القديم أولًا
-cleanupOutdatedCaches();
+workbox.precaching.cleanupOutdatedCaches(); 
 
 // أضف الكاش الجديد
 // 1. تخزين الملفات الأساسية مسبقًا (Precache)
@@ -63,7 +63,11 @@ workbox.routing.registerRoute(
 );
 
 self.addEventListener('install', (event) => {
-  self.skipWaiting();
+  self.skipWaiting(); // يتخطى مرحلة الانتظار
+});
+
+self.addEventListener('activate', (event) => {
+  clients.claim(); // يسيطر على جميع النوافذ المفتوحة
 });
 
 // 4. استراتيجية للصفحات (Network First)

@@ -21,7 +21,7 @@ workbox.precaching.precacheAndRoute([
 
   // ملفات JS
   { url: '/js/active-nav-link.js', revision: '1' },
-  { url: '/js/blog.js', revision: '1' },
+  { url: '/js/blog.js', revision: 'v2' },
   { url: '/js/book-appointment.js', revision: '1' },
   { url: '/js/loading-page.js', revision: '1' },
   { url: '/js/open-close-nav.js', revision: '1' },
@@ -31,6 +31,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/js/swiper-about.js', revision: '1' },
   { url: '/js/swiper-home.js', revision: '1' },
   { url: '/js/wow.min.js', revision: '1' },
+  { url: '/app.js', revision: 'v2' },
 
   // الخطوط
   { url: '/fonts/Shamel-thin.ttf', revision: '1' },

@@ -923,11 +923,11 @@ input, select {
 
 .contact-option:hover { transform: scale(1.1) }
 
-.phone { background-color: #28a745 }
+.contact-options .phone { background-color: #28a745 }
 
-.whatsapp { background-color: #25d366 }
+.contact-options .whatsapp { background-color: #25d366 }
 
-.address { background-color: var(--secondary) }
+.contact-options .address { background-color: var(--secondary) }
 
 @media(max-width: 576px) {
   .bottom-navbar {

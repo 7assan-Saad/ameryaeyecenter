@@ -14,7 +14,7 @@ workbox.precaching.precacheAndRoute([
   { url: '/404.html', revision: 'v3' },
 
   // ملفات CSS
-  { url: '/css/style.css', revision: 'v2' },
+  { url: '/css/style.css', revision: 'v3' },
   { url: '/css/swiper-about.css', revision: 'v1' },
   { url: '/css/scroll-up.css', revision: 'v2' },
   { url: '/css/call-us.css', revision: 'v2' },

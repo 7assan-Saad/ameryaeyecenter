@@ -7,7 +7,7 @@ window.onscroll = function () {
     scrollUp.style.transform = 'translateY(0)';
     callUs.style.transform   = 'translateY(0)';
   } else {
-    scrollUp.style.transform = 'translateY(200%)';
+    scrollUp.style.transform = 'translateY(330%)';
     callUs.style.transform   = 'translateY(59%)';
   }
 }

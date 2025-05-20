@@ -7,14 +7,14 @@ workbox.precaching.cleanupOutdatedCaches();
 // 1. تخزين الملفات الأساسية مسبقًا (Precache)
 workbox.precaching.precacheAndRoute([
   // الصفحات
-  { url: '/index.html', revision: 'v4' },
+  { url: '/index.html', revision: 'v5' },
   { url: '/about.html', revision: 'v4' },
   { url: '/blog.html', revision: 'v4' },
   { url: '/book-appointment.html', revision: 'v4' },
   { url: '/404.html', revision: 'v4' },
 
   // ملفات CSS
-  { url: '/css/style.css', revision: 'v4' },
+  { url: '/css/style.css', revision: 'v5' },
   { url: '/css/swiper-about.css', revision: 'v1' },
   { url: '/css/scroll-up.css', revision: 'v2' },
   { url: '/css/call-us.css', revision: 'v2' },

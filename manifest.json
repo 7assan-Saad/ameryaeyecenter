@@ -4,8 +4,8 @@
   "description": "مركز العامرية للعيون والليزر، أول مركز متخصص للعيون والليـزر فى العامرية",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
   "theme_color": "#ffffff",
+  "background_color": "#023a66",
   "icons": [
     {
       "src": "./img/icon-192x192.png",

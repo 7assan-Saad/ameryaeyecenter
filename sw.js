@@ -7,14 +7,14 @@ workbox.precaching.cleanupOutdatedCaches();
 // 1. تخزين الملفات الأساسية مسبقًا (Precache)
 workbox.precaching.precacheAndRoute([
   // الصفحات
-  { url: '/index.html', revision: 'v3' },
-  { url: '/about.html', revision: 'v3' },
-  { url: '/blog.html', revision: 'v3' },
-  { url: '/book-appointment.html', revision: 'v3' },
-  { url: '/404.html', revision: 'v3' },
+  { url: '/index.html', revision: 'v4' },
+  { url: '/about.html', revision: 'v4' },
+  { url: '/blog.html', revision: 'v4' },
+  { url: '/book-appointment.html', revision: 'v4' },
+  { url: '/404.html', revision: 'v4' },
 
   // ملفات CSS
-  { url: '/css/style.css', revision: 'v3' },
+  { url: '/css/style.css', revision: 'v4' },
   { url: '/css/swiper-about.css', revision: 'v1' },
   { url: '/css/scroll-up.css', revision: 'v2' },
   { url: '/css/call-us.css', revision: 'v2' },
@@ -22,7 +22,7 @@ workbox.precaching.precacheAndRoute([
   // ملفات JS
   { url: '/js/blog.js', revision: 'v4' },
   { url: '/js/book-appointment.js', revision: 'v1' },
-  { url: '/js/notifications.js', revision: 'v1' },
+  { url: '/js/notifications.js', revision: 'v2' },
   { url: '/js/active-nav-link.js', revision: 'v2' },
   { url: '/js/bottom-nav.js', revision: 'v1' },
   { url: '/js/loading-page.js', revision: 'v1' },
@@ -54,7 +54,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   ({ request }) => request.destination === 'image',
   new workbox.strategies.CacheFirst({
-    cacheName: 'images-cache'
+    cacheName: 'images-cache-v2'
   })
 );
 

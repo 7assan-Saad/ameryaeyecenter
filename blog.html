@@ -130,9 +130,9 @@
           </li>
 
           <li class="nav-item pt-2">
-            <span class="contact-us nav-link max-content cursor-pointer" aria-current="page" onclick="scrollToDown()">
+            <a href="#footer" class="contact-us nav-link max-content cursor-pointer" aria-current="page">
               التواصل
-            </span>
+            </a>
           </li>
 
           <a href="book-appointment.html"
@@ -160,7 +160,7 @@
             <img src="./img/icons/bell.svg" alt="notifications-icon">
           </button>
 
-          <div class="notifications-list hidden">
+          <div class="notifications-list">
             <div class="d-flex align-items-center justify-content-between mb-4">
               <h5 class="mt-3">الإشعـارات</h5>
               <img class="notif-close cursor-pointer" src="./img/icons/close-icon.svg" width="28px" alt="close-icon">
@@ -186,6 +186,7 @@
   <!--end navbar-->
 
   <!-- bottom-navbar (Mobile Only) -->
+  <div class="bottom-navbar-circle"></div>
   <nav class="bottom-navbar navbar navbar-light fixed-bottom">
     <ul class="w-100 d-flex flex-row justify-content-around align-items-center p-0">
       <li class="nav-item">
@@ -212,7 +213,7 @@
             title="whatsapp">
             <img src="./img/icons/whats-white.svg" alt="whats-icon" width="70%">
           </a>
-          <a class="contact-option cursor-pointer address" title="address" onclick="scrollToDown()">
+          <a href="#footer" class="contact-option cursor-pointer address" title="address">
             <img src="./img/icons/map-white.svg" alt="map-icon" width="65%">
           </a>
         </div>
@@ -245,7 +246,7 @@
   <!-- start join-us -->
   <section class="join-us section bg-light text-center">
     <div class="container px-3">
-      <h2 class="head-center position-relative mb-5 wow fadeInUp" data-wow-offset="200">انضم إلينا</h2>
+      <h2 class="head-center text-primary position-relative mb-5 wow fadeInUp" data-wow-offset="200">انضم إلينا</h2>
       <p class="fs-5 text-gray mb-4 wow fadeInUp" data-wow-offset="200">أرسل رقم الواتس ليصلك آخر التحديثات والعروض
         الحصرية</p>
 
@@ -260,7 +261,7 @@
   <!-- end join-us -->
 
   <!-- start footer -->
-  <footer class="bg-gradient text-white text-regular">
+  <footer id="footer" class="bg-gradient text-white text-regular">
     <div class="container">
       <div class="row">
 

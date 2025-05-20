@@ -97,7 +97,6 @@
   </div>
 
   <!--start navbar-->
-  <!-- <nav class="navbar navbar-expand-lg fixed-top wow fadeInDown" data-wow-delay=".1s"> -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
 
@@ -130,9 +129,9 @@
           </li>
 
           <li class="nav-item pt-2">
-            <span class="contact-us nav-link max-content cursor-pointer" aria-current="page" onclick="scrollToDown()">
+            <a href="#footer" class="contact-us nav-link max-content cursor-pointer" aria-current="page">
               التواصل
-            </span>
+            </a>
           </li>
 
           <a href="book-appointment.html"
@@ -160,7 +159,7 @@
             <img src="./img/icons/bell.svg" alt="notifications-icon">
           </button>
 
-          <div class="notifications-list hidden">
+          <div class="notifications-list">
             <div class="d-flex align-items-center justify-content-between mb-4">
               <h5 class="mt-3">الإشعـارات</h5>
               <img class="notif-close cursor-pointer" src="./img/icons/close-icon.svg" width="28px" alt="close-icon">
@@ -186,6 +185,7 @@
   <!--end navbar-->
 
   <!-- bottom-navbar (Mobile Only) -->
+  <div class="bottom-navbar-circle"></div>
   <nav class="bottom-navbar navbar navbar-light fixed-bottom">
     <ul class="w-100 d-flex flex-row justify-content-around align-items-center p-0">
       <li class="nav-item">
@@ -212,7 +212,7 @@
             title="whatsapp">
             <img src="./img/icons/whats-white.svg" alt="whats-icon" width="70%">
           </a>
-          <a class="contact-option cursor-pointer address" title="address" onclick="scrollToDown()">
+          <a href="#footer" class="contact-option cursor-pointer address" title="address">
             <img src="./img/icons/map-white.svg" alt="map-icon" width="65%">
           </a>
         </div>
@@ -277,7 +277,7 @@
             </div>
           </div>
 
-          <div class="col d-flex align-items-end justify-content-center z-3 amr-said-photo wow fadeInLeft"
+          <div class="amr-said-photo col d-flex align-items-end justify-content-center z-3 wow fadeInLeft"
             data-wow-delay=".4s">
             <img src="./img/dr.Amr-Said.png" class="drop-shadow" alt="dr.Amr-Said">
           </div>
@@ -288,6 +288,25 @@
     </div>
   </div>
   <!-- end home -->
+
+  <!-- start urgent -->
+  <section class="urgent bg-warning">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col col-lg-8 fs-5 text-center lh-lg">
+          نعتذر عن استقبال حضراتكم من الخميس 22 مايو إلى الثلاثاء 27 مايو <br> لسفر الأستاذ الدكتور/ عمرو سعيد لإلقاء
+          محاضرات
+          في مؤتمر الجمعية الأوروبية للقرنية بجمهورية التشيك - إن شاء الله - على أن نتشرف باستقبالكم بداية من الأربعاء
+          28
+          مايو في فرعي سموحة والعامرية.
+        </div>
+        <div class="col col-4 ps-5 hidden d-lg-block">
+          <img src="./img/prague.png" class="rounded-4" alt="prague-img" width="100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end urgent -->
 
   <!-- start adds -->
   <section class="adds py-4 wow fadeInUp" data-wow-offset="200" data-wow-delay=".1s">
@@ -582,6 +601,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -596,6 +616,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -610,6 +631,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -624,6 +646,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -638,6 +661,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -652,6 +676,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -666,6 +691,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white" src="./img/vezeeta-icon.png"
                   alt="person-photo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -680,6 +706,7 @@
               <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white" src="./img/vezeeta-icon.png"
                   alt="person-photo">
+                <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
                 <img class="quote-icon" src="./img/icons/quote-icon.svg" alt="quote-icon">
                 <div class="testimonial-text">
                   <p class="lh-lg text-gray">
@@ -820,7 +847,7 @@
   <!-- start join-us -->
   <section class="join-us section bg-light text-center">
     <div class="container px-3">
-      <h2 class="head-center position-relative mb-5 wow fadeInUp" data-wow-offset="200">انضم إلينا</h2>
+      <h2 class="head-center text-primary position-relative mb-5 wow fadeInUp" data-wow-offset="200">انضم إلينا</h2>
       <p class="fs-5 text-gray mb-4 wow fadeInUp" data-wow-offset="200">أرسل رقم الواتس ليصلك آخر التحديثات والعروض
         الحصرية</p>
 
@@ -835,7 +862,7 @@
   <!-- end join-us -->
 
   <!-- start footer -->
-  <footer class="bg-gradient text-white text-regular">
+  <footer id="footer" class="bg-gradient text-white text-regular">
     <div class="container">
       <div class="row">
 
@@ -1017,9 +1044,9 @@
   <!-- end footer -->
 
   <!-- start loading page -->
-  <!-- <section class="loading-overlay">
+  <section class="loading-overlay">
     <span class="loader"></span>
-  </section> -->
+  </section>
   <!-- end loading page -->
 
   <!-- install banner -->
@@ -1037,7 +1064,7 @@
     </div>
   </div>
 
-  <!-- <script src="./js/loading-page.js" defer></script> -->
+  <script src="./js/loading-page.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
@@ -1054,8 +1081,12 @@
   <script src="./js/wow.min.js"></script>
 
   <script>
+    const isMobile = window.matchMedia('(max-width: 991.98px)').matches;
+    let photo = document.querySelector(".amr-said-photo img")
+    if (isMobile) {
+      photo.style.marginBottom = '60px'
+    }
     function scrollToUp() { scrollTo(0, 0) }
-    function scrollToDown() { scrollTo(0, document.body.offsetHeight) }
   </script>
 
   <script> new WOW().init() </script>

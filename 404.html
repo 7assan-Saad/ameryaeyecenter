@@ -48,6 +48,7 @@
       text-decoration: none;
       border-radius: 35px;
       padding: 16px 35px 13px 35px;
+      margin: 10px;
     }
 
     .not-found {
@@ -62,7 +63,10 @@
   <div style="width: 450px; padding-left: 20px; padding-right: 20px;">
     <img src="./img/icons/404.svg" width="90%" alt="404-photo">
     <p class="not-found">عفواً ! الصفحة التي تبحث عنها غير موجودة</p>
-    <a href="/" class="redirect">العودة للصفحة الرئيسية</a>
+    <div>
+      <a href="/" class="redirect">الصفحة الرئيسية</a>
+      <a href="javascript:history.back()" class="redirect">الصفحة السابقة</a>
+    </div>
   </div>
 </body>
 

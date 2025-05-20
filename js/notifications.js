@@ -12,22 +12,22 @@ const notifications = [
       {
         title: "احجز عن طريق الموقع أو التطبيق واحصل على خصم 5%",
         link: "https://www.facebook.com/share/p/1YijdUvaw5/",
-        state: "متاح"
+        offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
       },
       {
         title: "خصم خاص على جلسات علاج جفاف العين",
         link: "https://www.facebook.com/share/p/1AaAMmrQ6J/",
-        state: "متاح"
+        offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
       },
       {
         title: "عرض مميز على زرع العدسات متعددة البؤر، خصم 15% لفترة محدودة",
         link: "https://www.facebook.com/share/p/18ZDbYVg75/",
-        state: "متاح"
+        offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
       },
       {
         title: "عروض خاصة على عمليات المياه البيضاء",
         link: "https://www.facebook.com/share/p/1AjGtEBHCJ/",
-        state: "متاح"
+        offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
       }
     ]
   }
@@ -48,7 +48,7 @@ const notifDiscounts = notifDiscountsItems.innerHTML = discounts.map(discount =>
       style="padding: 25px 25px 35px 25px;">
       <div class="w-100 text-start">
         ${
-          (discount.state == 'متاح') ?
+          (!discount.offerEnding) ?
           `<span class="notif-state text-regular available">العرض متاح</span>`
           : `<span class="notif-state text-regular not-available">العرض غير متاح</span>`
         }
@@ -83,7 +83,7 @@ const notifBlogs = notifBlogsItems.innerHTML = newBlogs.map(blog => {
 }).join('')
 
 // console.log(newBlogs)
-// console.log(discounts)
+// console.log(discounts[0])
 
 const notifBtn = document.querySelector('#notif-btn')
 const notifClose = document.querySelector('.notif-close')
@@ -95,12 +95,13 @@ notifBtn.addEventListener('click', function (e) {
   e.preventDefault();
   e.stopPropagation();
   // notifList.classList.toggle('show-list');
-  notifList.classList.toggle('hidden');
+  notifList.classList.toggle('show-list');
+  notifList.classList.remove('hide-list');
 });
 
 notifClose.addEventListener('click', function (e) {
-  // notifList.classList.toggle('show-list');
-  notifList.classList.add('hidden');
+  notifList.classList.add('hide-list');
+  notifList.classList.remove('show-list');
 });
 
 // إغلاق الإشعارات عند النقر خارجها
@@ -109,6 +110,22 @@ document.addEventListener('click', function (e) {
   //   console.log('yes')
   // }
   if (!e.target.closest('.notifications-list')) {
-    notifList.classList.add('hidden');
+    notifList.classList.add('hide-list');
+    notifList.classList.remove('show-list');
   }
 });
+
+
+// Offer end date
+function isOfferEndingThisMonth(offerEndDate) {
+  // الحصول على التاريخ الحالي
+  const today = new Date();
+  
+  // الحصول على آخر يوم من الشهر الحالي
+  const lastDayOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+
+  // مقارنة تاريخ انتهاء العرض بآخر يوم من الشهر
+  return offerEndDate.getDate() === lastDayOfMonth.getDate() && 
+         offerEndDate.getMonth() === lastDayOfMonth.getMonth() && 
+         offerEndDate.getFullYear() === lastDayOfMonth.getFullYear();
+}

@@ -8,9 +8,9 @@ workbox.precaching.cleanupOutdatedCaches();
 workbox.precaching.precacheAndRoute([
   // الصفحات
   { url: '/index.html', revision: 'v6' },
-  { url: '/about.html', revision: 'v4' },
-  { url: '/blog.html', revision: 'v4' },
-  { url: '/book-appointment.html', revision: 'v4' },
+  { url: '/about.html', revision: 'v5' },
+  { url: '/blog.html', revision: 'v5' },
+  { url: '/book-appointment.html', revision: 'v5' },
   { url: '/404.html', revision: 'v4' },
 
   // ملفات CSS

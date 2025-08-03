@@ -1,5 +1,13 @@
 const blogs = [
   {
+    title: "القرنية المخروطية",
+    link: "https://vt.tiktok.com/ZSSY9wCMT/",
+  },
+  {
+    title: "الحول لدى الاطفال",
+    link: "https://vt.tiktok.com/ZSSY9oDon/",
+  },
+  {
     title: "أعراض جفاف العين",
     link: "https://www.facebook.com/share/p/1AaAMmrQ6J/",
   },
@@ -58,6 +66,10 @@ const blogs = [
   {
     title: "يعني إيه مياه بيضاء ؟",
     link: "https://www.tiktok.com/@amrsaid7352/video/7478352312453303557?_r=1&_t=ZM-8vYq4AomcOz",
+  },
+  {
+    title: "إزاي تعرف إن عندك مياه بيضاء في عينك ؟",
+    link: "https://vt.tiktok.com/ZSSY9ccCw/",
   },
   {
     title: "ليه لازم تزيل المياه البيضاء ؟",

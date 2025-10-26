@@ -1,7 +1,15 @@
 const blogs = [
   {
+    title: "أحدث عدسات Evolux الإيطالية وصلت عندنا في المركز",
+    link: "https://www.facebook.com/share/v/1AZ256bbbe/",
+  },
+  {
     title: "القرنية المخروطية",
     link: "https://vt.tiktok.com/ZSSY9wCMT/",
+  },
+  {
+    title: "القرنية المخروطية، أسبابها، وعلاجها",
+    link: "https://www.tiktok.com/@amrsaid7352/video/7437560242897964296?_r=1&_t=ZM-8vYq4AomcOz",
   },
   {
     title: "الحول لدى الاطفال",
@@ -76,6 +84,10 @@ const blogs = [
     link: "https://www.tiktok.com/@amrsaid7352/video/7479910720855952695?_r=1&_t=ZM-8vYq4AomcOz",
   },
   {
+    title: "هل بنحتاج بنج كلي في عملية المياه البيضاء ؟ الإجابة مع أ.د/ عمرو سعيد ؟",
+    link: "https://www.facebook.com/share/v/1LaoaRj49U/",
+  },
+  {
     title: "هل حساسية العين مرض مزمن ؟ هل مرتبط بالسن ؟ هل ليه علاقة بظروف الشغل وظروف الجو ؟",
     link: "https://www.tiktok.com/@amrsaid7352/video/7493886695012699398?_r=1&_t=ZM-8vYq4AomcOz",
   },
@@ -126,10 +138,6 @@ const blogs = [
   {
     title: "هل كل مشاكل العيون لها علاج ؟",
     link: "https://www.tiktok.com/@amrsaid7352/video/7438723218413784328?_r=1&_t=ZM-8vYq4AomcOz",
-  },
-  {
-    title: "القرنية المخروطية، أسبابها، وعلاجها",
-    link: "https://www.tiktok.com/@amrsaid7352/video/7437560242897964296?_r=1&_t=ZM-8vYq4AomcOz",
   },
   {
     title: "تطور العلم لعلاج أمراض العيون",

@@ -2,13 +2,9 @@ const notifications = [
   {
     newBlogs: [
       {
-        title: "القرنية المخروطية",
-        link: "https://vt.tiktok.com/ZSSY9wCMT/",
+        title: "أحدث عدسات Evolux الإيطالية وصلت عندنا في المركز",
+        link: "https://www.facebook.com/share/v/1AZ256bbbe/",
       },
-      {
-        title: "الحول لدى الاطفال",
-        link: "https://vt.tiktok.com/ZSSY9oDon/",
-      }
     ]
   },
   {
@@ -16,21 +12,6 @@ const notifications = [
       // {
       //   title: "احجز عن طريق الموقع أو التطبيق واحصل على خصم 5%",
       //   link: "https://www.facebook.com/share/p/1YijdUvaw5/",
-      //   offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
-      // },
-      // {
-      //   title: "خصم خاص على جلسات علاج جفاف العين",
-      //   link: "https://www.facebook.com/share/p/1AaAMmrQ6J/",
-      //   offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
-      // },
-      // {
-      //   title: "عرض مميز على زرع العدسات متعددة البؤر، خصم 15% لفترة محدودة",
-      //   link: "https://www.facebook.com/share/p/18ZDbYVg75/",
-      //   offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
-      // },
-      // {
-      //   title: "عروض خاصة على عمليات المياه البيضاء",
-      //   link: "https://www.facebook.com/share/p/1AjGtEBHCJ/",
       //   offerEnding: isOfferEndingThisMonth(offerEndDate = new Date(2025, 3, 8)) // (مايو = 3 لأن الأشهر تبدأ من 0)
       // }
     ]
@@ -44,6 +25,7 @@ const notifDiscountsItems = document.querySelector('.notif-discounts-items')
 const notifBlogsItems = document.querySelector('.notif-blogs-items')
 const blogTitle = document.querySelector('.blog-title')
 const notifState = document.querySelector('.notif-state')
+// console.log(discounts.length)
 
 // const notifDiscounts = notifDiscountsItems.innerHTML = discounts.map(discount => {
 //   return /*html*/`

@@ -1357,6 +1357,40 @@ select {
 
 /* end features */
 
+/* start have-ques */
+.have-ques img {
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+}
+
+.have-ques-frame {
+  margin-top: 8rem;
+  padding-top: 11rem !important;
+}
+
+@media(min-width: 992px) {
+  .have-ques img {
+    position: absolute;
+    top: 50%;
+    right: -15%;
+    transform: translateY(-50%);
+    width: 370px;
+  }
+
+  .have-ques-frame {
+    margin-top: 2rem;
+    padding-top: 3.5rem !important;
+    padding-right: 20rem !important;
+    width: 85%;
+    margin-right: auto;
+  }
+}
+
+/* end have-ques */
+
 /* start testimonials */
 
 .testimonials-carousel {

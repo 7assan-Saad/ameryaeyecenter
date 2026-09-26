@@ -112,7 +112,7 @@
           </li>
 
           <li class="nav-item pt-2">
-            <a class="about nav-link max-content" aria-current="page" href="about.html">عن الدكتور</a>
+            <a class="about nav-link max-content" aria-current="page" href="/about">عن الدكتور</a>
           </li>
 
           <li class="nav-item pt-2">
@@ -125,16 +125,16 @@
           </li>
 
           <li class="nav-item pt-2">
-            <a class="blog nav-link max-content" aria-current="page" href="/blog.html">المقالات</a>
+            <a class="blog nav-link max-content" aria-current="page" href="/blog">المقالات</a>
           </li>
 
           <li class="nav-item pt-2">
-            <a href="#footer" class="contact-us nav-link max-content cursor-pointer" aria-current="page">
+            <span class="contact-us nav-link max-content cursor-pointer to-contact" aria-current="page">
               التواصل
-            </a>
+            </span>
           </li>
 
-          <a href="book-appointment.html"
+          <a href="/book-appointment"
             class="book-appointment text-white bg-gradient rounded-5 px-5 ms-xl-3 max-content cursor-pointer"
             style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
             حـجـــز موعـــد
@@ -195,7 +195,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link about" href="/about.html">
+        <a class="nav-link about" href="/about">
           <img class="icons" src="./img/icons/person.svg" alt="person-icon">
           <span>عن الدكتور</span>
         </a>
@@ -212,19 +212,19 @@
             title="whatsapp">
             <img src="./img/icons/whats-white.svg" alt="whats-icon" width="70%">
           </a>
-          <a href="#footer" class="contact-option cursor-pointer address" title="address">
+          <span class="contact-option cursor-pointer address to-contact" title="address">
             <img src="./img/icons/map-white.svg" alt="map-icon" width="65%">
-          </a>
+          </span>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link blog" href="/blog.html">
+        <a class="nav-link blog" href="/blog">
           <img class="icons" src="./img/icons/blog.svg" alt="blog-icon">
           <span>المقالات</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/book-appointment.html">
+        <a class="nav-link" href="/book-appointment">
           <img class="icons" src="./img/icons/appointment.svg" alt="appointment-icon">
           <span>حجز موعد</span>
         </a>
@@ -380,7 +380,7 @@
               <br>
               عضو في الجمعية الأوروبية لتصحيح البصر والمياه البيضاء.
             </p>
-            <a href="about.html"
+            <a href="/about"
               class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mx-auto max-content cursor-pointer wow fadeInUp"
               style="padding-top: 14px; padding-bottom: 9px;" aria-current="page" data-wow-offset="50"
               data-wow-delay=".1s">
@@ -401,93 +401,218 @@
   <section class="services section bg-light text-center" id="services">
     <div class="container">
       <h2 class="head-center position-relative mb-5 wow fadeInUp" data-wow-offset="200">خدمات المركــز</h2>
-      <div class="row row-cols-2 row-cols-lg-3">
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/cataract-surgery.png" alt="cataract-surgery" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            عمليات المياه البيضاء
-          </p>
-        </div>
+      <div class="row row-cols-1 row-cols-md-2">
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/glaucoma-surgery.png" alt="glaucoma-surgery" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            عمليات المياه الزرقاء
-          </p>
-        </div>
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <div class="h-100 bg-white rounded-4 text-start overflow-hidden shadow">
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/laser-and-lasik.png" alt="laser-and-lasik" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            تصحيح الإبصار بالليزر والليزك
-          </p>
-        </div>
+            <div class="bg-primary text-white p-4">
+              <div class="fs-2 pt-2 p-3 mt-3 mb-4 rounded-4 max-content" style="height: 62px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18);">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye preview-icon mt-1">
+                <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+              <h5>القرنية المخروطية</h5>
+              <h6 class="f-arial"> Keratoconus Treatment</h6>
+            </div>
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/eye-surgeries.png" alt="eye-surgeries" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
+            <div class="fs-7 text-regular p-4">
+              <p class="lh-lg" style="max-width: 490px;">
+                متخصص في تشخيص وعلاج القرنية المخروطية بأحدث الأساليب العلاجية لوقف التدهور واستعادة الرؤية الواضحة.
+              </p>
+              <ul class="service-points">
+                <li class="mb-2"><span class="f-arial">Cross-Linking</span> لتثبيت القرنية المخروطية</li>
+                <li class="mb-2">العدسات اللاصقة الصلبة والهجينة <span class="f-arial">(Scleral)</span></li>
+                <li class="mb-2">زراعة قرنية في الحالات المتقدمة</li>
+                <li>خبير معترف به دولياً في هذا التخصص</li>
+              </ul>
+              <a href="/keratoconus" target="_blank" class="d-block mt-4"> تعرف على القرنية المخروطية ← </a>
+              <p class="mt-3" style="font-size:13px;">اقرأ أيضًا: 
+                <a href="/rigid-contact-lenses" target="_blank">دليل العدسات الصلبة والقرنية المخروطية ←</a>
+                <span class="d-inline-block fs-6 mx-2">·</span>
+                <a href="/corneal-diagnostics" target="_blank">فحوصات القرنية المتقدمة ←</a>
+              </p>
+            </div>
+
+          </div>
+        </div> <!-- end col -->
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <div class="h-100 bg-white rounded-4 text-start overflow-hidden shadow">
+
+            <div class="bg-secondary text-white p-4">
+              <div class="fs-2 pt-2 p-3 mt-3 mb-4 rounded-4 max-content" style="height: 62px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18);">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-eye preview-icon mt-1">
+                <path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="1"/><path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/>
+                </svg>
+              </div>
+              <h5>تصحيح الإبصار بالليزك</h5>
+              <h6 class="f-arial"> LASIK · FemtoLASIK · SMILE</h6>
+            </div>
+
+            <div class="fs-7 text-regular p-4">
+              <p class="lh-lg" style="max-width: 490px;">
+                تخلص من النظارات والعدسات اللاصقة بشكل دائم باستخدام أحدث تقنيات الليزر. نقيّم أعينك بدقة لاختيار الإجراء الأنسب لك.
+              </p>
+              <ul class="service-points">
+                <li class="mb-2">الليزك التقليدي والفيمتوليزك بدون شفرة</li>
+                <li class="mb-2">سمايل — الجيل الجديد بأصغر شق جراحي</li>
+                <li class="mb-2">تصحيح قصر النظر وطول النظر والاستيجماتيزم</li>
+                <li>فحص شامل مجاني لتحديد الأهلية</li>
+              </ul>
+              <a href="/lasik" target="_blank" class="d-block mt-4"> تعرف على تصحيح الإبصار ←</a>
+              <p class="mt-3" style="font-size:13px;">صفحات تفصيلية: 
+                <a href="/smile" target="_blank">عملية سمايل <span class="f-arial">SMILE</span> ←</a>
+                <span class="d-inline-block fs-6 mx-2">·</span> 
+                <a href="/icl" target="_blank">زراعة العدسات <span class="f-arial">ICL</span> ←</a>
+              </p>
+            </div>
+
+          </div>
+        </div> <!-- end col -->
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <div class="h-100 bg-white rounded-4 text-start overflow-hidden shadow">
+
+            <div class="bg-primary text-white p-4">
+              <div class="fs-2 pt-2 p-3 mt-3 mb-4 rounded-4 max-content" style="height: 62px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18);">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-view preview-icon mt-1">
+                <path d="M21 17v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2"/><path d="M21 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2"/>
+                <circle cx="12" cy="12" r="1"/><path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/>
+                </svg>
+              </div>
+              <h5>المياه البيضاء</h5>
+              <h6 class="f-arial"> Cataract Surgery</h6>
+            </div>
+
+            <div class="fs-7 text-regular p-4">
+              <p class="lh-lg" style="max-width: 490px;">
+                جراحة المياه البيضاء بأحدث تقنيات الفيمتوليزر والفاكو، مع إمكانية تصحيح النظر في نفس الوقت باستخدام العدسات المتطورة.
+              </p>
+              <ul class="service-points">
+                <li class="mb-2">استئصال العدسة بالموجات فوق الصوتية (فاكو)</li>
+                <li class="mb-2">العدسات اللاصقة الصلبة عدسات أحادية وثنائية وثلاثية البؤرة</li>
+                <li class="mb-2">خروج في نفس اليوم — تحسّن الرؤية فورياً</li>
+                <li>مناسبة للجالية الليبية والسودانية</li>
+              </ul>
+              <a href="/cataract-surgery" target="_blank" class="d-block mt-4"> تعرف على عمليات المياه البيضاء ← </a>
+              <p class="mt-3" style="font-size:13px;">اقرأ أيضًا: 
+                <a href="/cataract-surgery-guide" target="_blank">المياه البيضاء - الأعراض والعلاج ←</a>
+                <span class="d-inline-block fs-6 mx-2">·</span> 
+                <a href="/lens-types" target="_blank">أنواع العدسات الحديثة (<span class="f-arial">EDOF</span> ومتعددة البؤر) ←</a>
+                <span class="d-inline-block fs-6 mx-2">·</span> 
+                <a href="/eyhance-evolux-lenses" target="_blank">عدسات <span class="f-arial">Eyhance</span> و <span class="f-arial">Evolux</span> ←</a>
+              </p>
+            </div>
+
+          </div>
+        </div> <!-- end col -->
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <div class="h-100 bg-white rounded-4 text-start overflow-hidden shadow">
+
+            <div class="bg-secondary text-white p-4">
+              <div class="fs-2 pt-2 p-3 mt-3 mb-4 rounded-4 max-content" style="height: 62px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18);">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-dashed preview-icon mt-1">
+                <path d="M13.054 18.946a11 11 0 0 1-2.11 0"/>
+                <path d="M13.054 5.054a11 11 0 0 0-2.11-.001"/>
+                <path d="M17.072 6.274a11 11 0 0 1 1.753 1.173"/>
+                <path d="M18.825 16.552a11 11 0 0 1-1.753 1.174"/>
+                <path d="M2.514 13.303a11 11 0 0 1-.452-.954 1 1 0 0 1 0-.697 11 11 0 0 1 .45-.955"/>
+                <path d="M21.485 10.697a11 11 0 0 1 .453.955 1 1 0 0 1 0 .697 11 11 0 0 1-.453.954"/>
+                <path d="M5.173 7.448a11 11 0 0 1 1.753-1.174"/>
+                <path d="M6.926 17.726a11 11 0 0 1-1.753-1.174"/>
+                <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+              <h5>علاج جفاف العين</h5>
+              <h6 class="f-arial">Dry Eye Treatment · IPL & Rexon-Eye</h6>
+            </div>
+
+            <div class="fs-7 text-regular p-4">
+              <p class="lh-lg" style="max-width: 490px;">
+                تشخيص دقيق وعلاج حديث لجفاف العين بالنبضات الضوئية <span class="f-arial">IPL</span> وجهاز <span class="f-arial">Rexon-Eye</span> للرنين الجزيئي لنتائج مستدامة والتخلص من الاعتماد على القطرات.
+              </p>
+              <ul class="service-points">
+                <li class="mb-2">جلسات النبضات الضوئية <span class="f-arial">(IPL)</span> لعلاج انسداد الغدد الدهنية</li>
+                <li class="mb-2">جهاز <span class="f-arial">Rexon-Eye</span> وتقنية الرنين الجزيئي الكمي <span class="f-arial">(QMR)</span></li>
+                <li class="mb-2">علاج جفاف العين ما بعد عمليات تصحيح الإبصار</li>
+                <li>فحص وتشخيص دقيق لسبب الجفاف قبل تحديد العلاج</li>
+              </ul>
+              <a href="/dry-eye-treatment" target="_blank" class="d-block mt-4">تعرف على علاج جفاف العين ← </a>
+            </div>
+
+          </div>
+        </div> <!-- end col -->
+
+      </div> <!-- end row -->
+      
+      
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/eye-surgeries.png" alt="eye-surgeries" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
             جراحات العيون
           </p>
         </div>
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/eye-cosmetics.png" alt="eye-cosmetics" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/eye-cosmetics.png" alt="eye-cosmetics" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
             تجميل العيون
           </p>
         </div>
 
         <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/US-lens.png" alt="US-lens" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            زراعة العدسات الأمريكية
+          <img class="rounded-4 shadow" src="./img/services/glaucoma-surgery.png" alt="glaucoma-surgery" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
+            عمليات المياه الزرقاء
           </p>
         </div>
-
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/lenses.png" alt="lenses" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            العدسات اللاصقة
-          </p>
-        </div>
-
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/corneal.png" alt="corneal" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            تثبيت القرنية
-          </p>
-        </div>
-
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/keratoconus.png" alt="keratoconus" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
-            علاج القرنية المخروطية
-          </p>
-        </div>
-
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/retinal-disease.png" alt="retinal-disease" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
+        
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/retinal-disease.png" alt="retinal-disease" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
             علاج أمراض الشبكية
           </p>
         </div>
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/children-eyes.png" alt="children-eyes" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/US-lens.png" alt="US-lens" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
+            زراعة العدسات الأمريكية
+          </p>
+        </div>
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/lenses.png" alt="lenses" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
+            العدسات اللاصقة
+          </p>
+        </div>
+
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/children-eyes.png" alt="children-eyes" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
             عيون الأطفال
           </p>
         </div>
 
-        <div class="col p-3 p-md-4 wow fadeInUp" data-wow-offset="200">
-          <img class="rounded-5 shadow" src="./img/services/exam-and-x-rays.png" alt="exam-and-x-rays" width="100%">
-          <p class="fs-5 text-bold mt-4 mb-0">
+        <div class="col p-3 wow fadeInUp" data-wow-offset="200">
+          <img class="rounded-4 shadow" src="./img/services/exam-and-x-rays.png" alt="exam-and-x-rays" width="100%">
+          <p class="fs-6 text-bold mt-4 mb-0">
             جميع فحوصات وأشعات العيون
           </p>
         </div>
 
       </div>
+
     </div>
   </section>
   <!-- end services -->
@@ -660,8 +785,131 @@
   <!-- start testimonials -->
   <section class="testimonials section" id="testimonials">
     <div class="container text-center">
-      <h2 class="head-center position-relative mb-5 wow fadeInUp" data-wow-offset="200">آراء عملائنــــا</h2>
+      <h2 class="head-center position-relative mb-5 wow fadeInUp" data-wow-offset="200">آراء المرضـى</h2>
       <p class="fs-5 text-gray wow fadeInUp" data-wow-offset="200">بعض من أراء الحالات الذين تم خدمتهم</p>
+
+      <div class="pt-5">
+     
+        <!-- reviews Platform Scoreboard -->
+        <div class="platform-scoreboard reveal wow fadeInUp" data-wow-offset="200">
+        <div class="platform-card google">
+          <div class="platform-logo google">
+            <img src="./img/icons/google-map-icon.svg" alt="google-map-icon">
+          </div>
+          <p class="platform-score f-arial fw-bold">
+          5.0
+          </p>
+          <div class="platform-stars gold">
+          ★★★★★
+          </div>
+          <div class="platform-count">
+          خرائط جوجل
+          </div>
+          <p class="platform-name google-text f-arial fw-bold mx-auto mb-0">
+            Google Maps
+          </p>
+          <div class="platform-verified">
+          ✓ موثّق
+          </div>
+        </div>
+        <div class="platform-card vezeeta">
+          <div class="platform-logo vezeeta">
+            <img src="./img/vezeeta-icon.png" alt="vezeeta-icon">
+          </div>
+          <div class="platform-score f-arial fw-bold">
+          5.0
+          </div>
+          <div class="platform-stars gold">
+          ★★★★★
+          </div>
+          <div class="platform-count">
+          أكثر من 361+ مريض
+          </div>
+          <p class="platform-name text-bold blue mb-0">
+            <span class="f-arial fw-bold mb-0">Vezeeta</span> فيزيتا
+          </p>
+          <div class="platform-verified">
+          ✓ زيارات مؤكدة
+          </div>
+        </div>
+        <div class="platform-card amreya">
+          <div class="platform-logo amreya">
+            <img src="./img/amreya-icon.png" alt="amreya-icon">
+          </div>
+          <div class="platform-score f-arial fw-bold">
+          5.0
+          </div>
+          <div class="platform-stars gold">
+          ★★★★★
+          </div>
+          <div class="platform-count">
+          مركز العامرية للعيون
+          </div>
+          <div class="platform-name text-primary">
+          مركز العامرية
+          </div>
+          <div class="platform-verified">
+          ✓ تقييمات المركز
+          </div>
+        </div>
+        <div class="platform-card facebook">
+          <div class="platform-logo facebook">
+            <img src="./img/icons/facebook-logo.svg" alt="facebook-icon">
+          </div>
+          <div class="platform-score f-arial fw-bold">
+          5.0
+          </div>
+          <div class="platform-stars gold">
+          ★★★★★
+          </div>
+          <div class="platform-count">
+          صفحة فيسبوك
+          </div>
+          <p class="platform-name blue f-arial fw-bold mb-0">
+            Facebook
+          </p>
+          <div class="platform-verified">
+          ✓ تعليقات حقيقية
+          </div>
+        </div>
+        </div>
+
+        <!-- reviews Total Bar -->
+        <div class="reviews-total-bar reveal wow fadeInUp" data-wow-offset="200">
+        <div class="rtb-left pt-3">
+          <p class="rtb-big-num f-arial fw-bold mb-0">5.0</p>
+          <div class="rtb-label">
+          <span class="rtb-stars">★★★★★</span>
+          <h3>تقييم مثالي عبر جميع المنصات</h3>
+          <p>
+            أكثر من 400 مريض حقيقي قيّموا الخدمة — من الإسكندرية والبحيرة ومطروح وليبيا والسودان. الدقة في التشخيص والأخلاق الرفيعة هما ما يذكره كل مريض.</p>
+          </div>
+        </div>
+        <div class="rtb-right">
+          <div class="rating-bar"><span class="rb-label">5★</span>
+          <div class="rb-bar">
+            <div class="rb-fill" style="width:96%"></div>
+          </div><span class="rb-count">96%</span>
+          </div>
+          <div class="rating-bar"><span class="rb-label">4★</span>
+          <div class="rb-bar">
+            <div class="rb-fill" style="width:3%;background:var(--teal-light)"></div>
+          </div><span class="rb-count">3%</span>
+          </div>
+          <div class="rating-bar"><span class="rb-label">3★</span>
+          <div class="rb-bar">
+            <div class="rb-fill" style="width:1%;background:#aaa"></div>
+          </div><span class="rb-count">1%</span>
+          </div>
+          <div class="rating-bar"><span class="rb-label">1★</span>
+          <div class="rb-bar">
+            <div class="rb-fill" style="width:0%"></div>
+          </div><span class="rb-count">0%</span>
+          </div>
+        </div>
+        </div>
+
+      </div>
 
       <div class="testimonials-carousel swiper wow fadeInUp" data-wow-offset="200">
         <div class="testimonials-wrapper mx-auto overflow-hidden">
@@ -669,7 +917,7 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="testimonial position-relative bg-light rounded-5 p-4 pb-5">
+              <div class="testimonial position-relative bg-light rounded-4 p-4 pb-5">
                 <img class="testimonial-person-img rounded-circle border border-white"
                   src="./img/icons/facebook-logo.svg" alt="facebook-logo">
                 <img class="rating-icon" src="./img/icons/five-star-rating.svg" alt="rating-icon">
@@ -818,6 +1066,18 @@
 
       </div>
 
+      <!-- reviews CTA -->
+      <div class="review-cta-strip reveal wow fadeInUp" data-wow-offset="200">
+        <div class="rcs-text">
+          <h3>هل أنت مريض سابق؟ شاركنا تجربتك</h3>
+          <p>تقييمك يساعد مرضى آخرين على اتخاذ قرارهم — وهو هدية لا تُقدّر</p>
+        </div>
+        <a href="https://maps.app.goo.gl/A739vdTG596Z5ei97" target="_blank" rel="noopener" class="rcs-btn">
+          <span class="rtb-stars me-2 mt-1">★</span>
+          <span>اترك تقييمك على جوجل</span>
+        </a>
+      </div>
+
     </div>
   </section>
   <!-- end testimonials -->
@@ -833,7 +1093,7 @@
           <div class="text-center text-white">
             <img src="./img/icons/stat-clients-icon.svg" width="150px" class="" alt="clients icon">
             <div>
-              <h3 class="fs-1 mt-4 mb-0">+ 20.000</h3>
+              <h3 class="fs-1 mt-4 mb-0">+ 40.000</h3>
               <p class="fs-4 mb-0">الحــالات</p>
             </div>
           </div>
@@ -845,7 +1105,7 @@
           <div class="text-center text-white">
             <img src="./img/icons/stat-goal-icon.svg" width="140px" class="" alt="clients icon">
             <div>
-              <h3 class="fs-1 mt-4 mb-0">+ 2000</h3>
+              <h3 class="fs-1 mt-4 mb-0">+ 2500</h3>
               <p class="fs-4 mb-0">تحقيق الأهداف</p>
             </div>
           </div>
@@ -857,7 +1117,7 @@
           <div class="text-center text-white">
             <img src="./img/icons/stat-expertise-icon.svg" width="140px" class="" alt="clients icon">
             <div>
-              <h3 class="fs-1 mt-4 mb-0">+ 15</h3>
+              <h3 class="fs-1 mt-4 mb-0">+ 20</h3>
               <p class="fs-4 mb-0">أعوام من الخبرة</p>
             </div>
           </div>
@@ -869,7 +1129,7 @@
           <div class="text-center text-white">
             <img src="./img/icons/stat-services-icon.svg" width="140px" class="" alt="clients icon">
             <div>
-              <h3 class="fs-1 mt-4 mb-0">+ 1000</h3>
+              <h3 class="fs-1 mt-4 mb-0">+ 2000</h3>
               <p class="fs-4 mb-0">الخدمات المقدمة</p>
             </div>
           </div>

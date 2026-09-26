@@ -155,7 +155,7 @@ const blogContent = document.querySelector(".blog-content").innerHTML = blogs.ma
             class="d-block fs-5 text-regular text-white bg-gradient rounded-5 px-5 mt-3 cursor-pointer"
             style="padding-top: 14px; padding-bottom: 9px;" aria-current="page">
             <span>المزيـــد</span>
-            <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+            <img src="../img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
           </a>
         </div>
       </div>

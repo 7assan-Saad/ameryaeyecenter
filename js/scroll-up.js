@@ -15,3 +15,18 @@ window.onscroll = function () {
 scrollUp.onclick = () => {
   scrollTo(0, 0)
 }
+
+// --------------------------------------------------
+
+// scroll to footer
+let contactUs = document.querySelectorAll('.to-contact')
+const footer  = document.getElementById("footer")
+
+contactUs.forEach(contact => {
+  contact.addEventListener("click", () => {
+    footer.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+})

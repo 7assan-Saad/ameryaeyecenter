@@ -61,7 +61,7 @@ const notifBlogs = notifBlogsItems.innerHTML = newBlogs.map(blog => {
           class="fs-7 text-regular text-white bg-gradient rounded-5 px-4 cursor-pointer"
           style="padding-top: 8px; padding-bottom: 5px;" aria-current="page">
           <span>المزيـــد</span>
-          <img src="./img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
+          <img src="../img/icons/arrow-link.svg" class="ms-2" width="25" alt="arrow-link">
         </a>
       </div>
     </div>

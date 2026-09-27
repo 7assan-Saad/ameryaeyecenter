@@ -2,32 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ameryaeyecenter.com/</loc>
-    <lastmod>2025-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
-    <loc>https://ameryaeyecenter.com/index.html</loc>
+    <loc>https://ameryaeyecenter.com/about/</loc>
     <lastmod>2025-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ameryaeyecenter.com/about.html</loc>
+    <loc>https://ameryaeyecenter.com/blog/</loc>
     <lastmod>2025-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ameryaeyecenter.com/blog.html</loc>
-    <lastmod>2025-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://ameryaeyecenter.com/book-appointment/</loc>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
-    <loc>https://ameryaeyecenter.com/book-appointment.html</loc>
-    <lastmod>2025-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://ameryaeyecenter.com/cataract-surgery/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/cataract-surgery-guide/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/corneal-diagnostics/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/dry-eye-treatment/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/eyhance-evolux-lenses/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/icl/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/keratoconus/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/lasik/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/lens-types/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/rigid-contact-lenses/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ameryaeyecenter.com/smile/</loc>
+    <lastmod>2026-09-26</lastmod>
   </url>
 </urlset>
